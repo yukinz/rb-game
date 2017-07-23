@@ -1,9 +1,20 @@
-=begin
-Game Project: A-maz-ing
-Programmed By Yuki
-A maze-like treasure search game
+#
+#Game Project: A-maz-ing
+#Programmed By Yuki Tanaka
+#
+#A maze-like treasure search game
+#To run the program, use:
+#ruby.amzing.rb
+#
 
-To run the program, use:
-ruby.amzing.rb
-=end
+require 'gosu'
 
+class Amazing < Gosu::Window
+        def initialize
+                super(640, 640)
+                self.caption = "Amazing"
+                # 
+        end
+        #
+
+end
