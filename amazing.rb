@@ -4,8 +4,8 @@
 #
 #A maze-like treasure search game
 #To run the program, use:
-#ruby.amzing.rb
-#
+#ruby.amazing.rb
+#/opt/c9vnc/c9vnc.sh
 
 require 'gosu'
 
